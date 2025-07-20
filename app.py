@@ -69,7 +69,8 @@ with tabs[0]:
             else:
                 result = "Pilihan bahasa tidak valid."
             st.session_state["translation"] = result
-            st.experimental_rerun()
+            st.rerun()
+()
 
 # ============================ #
 #      Tab 2: Analisis Teks    #
