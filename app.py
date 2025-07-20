@@ -78,7 +78,7 @@ with tabs[1]:
     st.subheader("📊 Analisis Word Cloud & Histogram Frekuensi")
 
     # Load data dari kode
-    df = pd.read_csv("datacleanx.csv")
+    df = pd.read_csv("databiasa.csv")
     text_aceh = " ".join(df["Aceh"].astype(str).tolist())
     text_indo = " ".join(df["Indonesia"].astype(str).tolist())
 
