@@ -18,14 +18,14 @@ from nmt_model_loader import (
 # Load kedua arah
 model_indo2aceh, src_i2a, tgt_i2a, inv_tgt_i2a = load_model_and_vocab(
     "nmtindo.pt",   
-    "src_vocab_indo2aceh.json",
-    "tgt_vocab_indo2aceh.json"
+    "src_vocabindo2aceh.json",
+    "tgt_vocabindo2aceh.json"
 )
 
 model_aceh2indo, src_a2i, tgt_a2i, inv_tgt_a2i = load_model_and_vocab(
     "nmtaceh.pt",
-    "src_vocab_aceh2indo.json",
-    "tgt_vocab_aceh2indo.json"
+    "src_vocabaceh2indo.json",
+    "tgt_vocabaceh2indo.json"
 )
 # Judul dan Tab
 st.set_page_config(layout="wide")
